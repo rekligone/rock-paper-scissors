@@ -1,0 +1,50 @@
+body{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    height: 800px;
+    gap: 50px;
+}
+
+button {
+    font-weight: bold;
+    font-size: 32px;
+    text-align: center;
+    justify-content: center;
+    color: rgb(33, 33, 33);
+    background-color: rgb(199, 199, 199);
+    border-radius: 16px;
+    width: 256px;
+}
+
+.buttons{
+    display: flex;
+    justify-content: center;
+    gap: 32px;
+}
+
+.container{
+    display: flex;
+    justify-content: center;
+    gap: 128px;
+    color: rgb(20, 171, 6);
+    font-size: 32px;
+    margin-top: 32px;
+}
+
+.playerScore, .computerScore, .winner{
+    padding: 16px;
+    text-align: center;
+}
+
+.winner{
+    color: red;
+}
+
+.roundWinner{
+    display: flex;
+    justify-content: center;
+    margin-top: 32px;
+    font-size: 32px;
+}
